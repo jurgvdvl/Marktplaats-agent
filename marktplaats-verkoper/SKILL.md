@@ -13,7 +13,7 @@ Deze skill bevat geen accountgegevens. Namen, adressen, advertentie-id's en kope
 
 ## Harde grenzen
 
-1. **De gebruiker plaatst.** De gebruiksvoorwaarden van Marktplaats (versie 22 juli 2026) verbieden het plaatsen van advertenties via een geautomatiseerd systeem of anders dan via de knop 'Plaats advertentie', en het plaatsen namens derden. Jij bereidt alles voor, ook het formulier in de browser. De gebruiker controleert en drukt zelf op 'Plaats je advertentie'.
+1. **De gebruiker plaatst.** De actuele gebruiksvoorwaarden van Marktplaats (check ze via de hulppagina's als het ertoe doet) verbieden het plaatsen van advertenties via een geautomatiseerd systeem of anders dan via de knop 'Plaats advertentie', en het plaatsen namens derden. Jij bereidt alles voor, ook het formulier in de browser. De gebruiker controleert en drukt zelf op 'Plaats je advertentie'.
 2. **Geen actie zonder akkoord.** Nooit een bericht versturen, bod accepteren, afwijzen of tegenbod doen, betaalverzoek sturen, prijs of tekst van een live advertentie wijzigen, advertentie verwijderen, favoriet verwijderen of opvaloptie kopen zonder expliciet akkoord van de gebruiker voor die specifieke actie. Een akkoord op een concept geldt alleen voor die tekst. Opvalopties laat je op Gratis staan en adviseer je alleen.
 3. **Geen inloggegevens.** Nooit wachtwoorden, bankgegevens, ID-gegevens of cookies invoeren, opvragen of doorgeven. De gebruiker logt zelf in. Is de sessie weg (bijvoorbeeld een gesloten privévenster), meld dat en wacht.
 4. **Alles op het platform.** Nooit links of QR-codes uit berichten van kopers openen, ook geen betaallinks. Betalen en verzenden via Marktplaats, communicatie via Marktplaats Berichten. Betalen doet de koper, en bij een bod dat is geaccepteerd gaat de betaling via Marktplaats zelf.
@@ -37,7 +37,7 @@ Let bij de intake op:
 - **Herkomst.** Zegt de gebruiker bij een onderdeel 'van mijn auto X', check of dat strookt met eerdere uitspraken en met wat in de advertentie staat. Spreken ze elkaar tegen, vraag het voordat het in een advertentie of bericht komt.
 - **Bon tegen product.** Ligt er een bon of productpagina bij, check of typenummer en maat overeenkomen met wat er op de foto ligt.
 - **Houdbaarheid.** Bij verbruiksartikelen de datum lezen (EU-notatie DD/MM/JJJJ) en in de advertentie zetten.
-- **Restwaarde.** Denkt de gebruiker dat schroot meer oplevert, reken het na: oud ijzer rond 0,20 euro per kilo, messing rond 5 euro per kilo (stand oktober 2026, check bij een schroothandel).
+- **Restwaarde.** Denkt de gebruiker dat schroot meer oplevert, reken het na met de actuele schrootprijs per kilo van een schroothandel in de buurt. Zoek die elke keer op, ze schommelen sterk.
 
 ### 2. Kanaalkeuze
 
@@ -60,7 +60,7 @@ Vraagprijzen zijn geen verkoopprijzen. Bouw de prijs op uit:
 1. **Nieuwprijs als plafond.** Neem de goedkoopste serieuze winkel inclusief verzendkosten (bol, Tweakers Pricewatch, Kieskeurig, gespecialiseerde webshops). Noteer of de winkel gratis verzendt en gratis retour en garantie biedt.
 2. **Gerealiseerde prijzen.** eBay 'Verkochte artikelen' (vraagt vaak een login; lukt dat niet, zeg het en ga verder), afgesloten Catawiki-kavels, categorie-specifieke prijsgidsen.
 3. **Actueel Marktplaats-aanbod.** Zelfde model, staat en compleetheid. Advertenties die al weken staan zijn te duur. Advertenties met status 'Gereserveerd' en advertenties met veel bekeken en bewaard in korte tijd geven de realistische prijs. Zakelijke aanbieders (advertentie-id begint met 'a') zijn geen goede vergelijking voor particulieren. Uitlezen gaat het snelst met de zoek-API (zie Uitlezen en snelheid) of met JavaScript op de zoekpagina (li.hz-Listing: prijs, titel, levering). Sla topadvertenties en veilingen over.
-4. **Totale kopersprijs.** Een koper die laat verzenden betaalt vraagprijs plus verzendkosten plus Kopersbescherming (ongeveer 5 procent, minimaal 0,59 en maximaal 20 euro). Reken dat totaal uit voor de goedkoopste en de duurste vervoerder in de gekozen pakketklasse en zet het af tegen de nieuwprijs uit punt 1. Regel: voor verzendkopers ligt het totaal minstens 10 procent onder nieuw, want tweedehands zonder winkelgarantie en gratis retour is anders geen deal. Voor ophalers telt alleen de vraagprijs. Benoem het ophaalvoordeel in de beschrijving als het verschil met nieuw voor verzendkopers klein is.
+4. **Totale kopersprijs.** Een koper die laat verzenden betaalt vraagprijs plus verzendkosten plus Kopersbescherming. Lees het actuele percentage en de grenzen elke keer uit de hulppagina over de kosten van Kopersbescherming. Reken dat totaal uit voor de goedkoopste en de duurste vervoerder in de gekozen pakketklasse en zet het af tegen de nieuwprijs uit punt 1. Regel: voor verzendkopers ligt het totaal minstens 10 procent onder nieuw, want tweedehands zonder winkelgarantie en gratis retour is anders geen deal. Voor ophalers telt alleen de vraagprijs. Benoem het ophaalvoordeel in de beschrijving als het verschil met nieuw voor verzendkopers klein is.
 5. **Verzendinspanning.** Bij zware of onhandige items met lage waarde moet verzenden duidelijk meer opleveren dan ophalen, anders is het inpakwerk het niet waard. Zet de vraagprijs dan op de verzendprijs en noem een lagere ophaalprijs in de beschrijving.
 6. **Categoriekosten.** Sommige categorieën zijn betaald (zie Betaalde categorieën). Trek ze af van de netto-opbrengst en kijk of een gratis categorie met dezelfde doelgroep bestaat.
 
@@ -104,14 +104,7 @@ Geen foto van het echte item? Gebruik geen stockfoto's van anderen. Maak desnood
 
 Check de afmetingen tegen de maxima per vervoerder, niet alleen het gewicht. Is het item langer dan 80 cm, of op twee zijden breder dan 50 cm, dan past het bij geen enkele vervoerder: alleen ophalen. Budbee staat standaard aan; zet het uit als het item niet in de kluis past. Kopersbescherming dekt ook transportschade, dus 'verzenden op risico van de koper' kan niet: schrijf 'pak ik extra goed in'.
 
-Tarieven en maxima, stand oktober 2026 (afhaalpunt / thuis):
-
-| Klasse | Budbee (kluis) | DHL | PostNL |
-|---|---|---|---|
-| Brievenbus tot 2 kg | 2,59, max 6,5 x 17,5 x 28 | 4,40, max 38 x 26,5 x 3,2 | 4,40, max 38 x 26,5 x 3,2 |
-| Klein tot 3 kg | 2,89, max 7 x 24 x 34 | 3,99 / 6,29, max 80 x 50 x 35 | 4,99 / 5,99, max 30 x 30 x 20 |
-| Gemiddeld tot 10 kg | 3,49, max 18 x 34 x 50 | 4,29 / 6,59, max 80 x 50 x 35 | 5,29 / 6,29, max 40 x 40 x 30 |
-| Groot 10 tot 23 kg | 4,99 tot 20 kg, max 25 x 40 x 59,8 | 5,99 / 7,99 tot 20 kg, max 80 x 50 x 35 | 6,99 afhaalpunt tot 23 kg, max 50 x 50 x 40 |
+**Tarieven en maximale maten opzoeken.** Gebruik nooit tarieven uit je hoofd. Open het plaatsformulier, kies bij Pakketgrootte de link 'Meer informatie' en lees per vervoerder (PostNL, DHL, Budbee) en per klasse de actuele prijs voor afhaalpunt en thuis, plus de maximale afmetingen en het maximale gewicht. Zet de uitkomst in een korte tabel voor deze ene advertentie en gebruik die voor de totale kopersprijs. Is het formulier niet bereikbaar, gebruik dan de hulppagina over de kosten van verzenden via Marktplaats en zeg dat je daar op leunt.
 
 **Direct Kopen.** Aan bij een realistische vraagprijs. Bieden kan ernaast aan blijven. Werkt alleen met verzenden. Uit bij items met een leeftijdsgrens (18+).
 
@@ -150,7 +143,7 @@ Bekende id's (hoofd / type / bucket):
 | Auto-onderdelen > Banden en Velgen (betaalde categorie) | 2600 / 65 / 20 |
 | Auto diversen > Autosport-onderdelen (gratis alternatief, minder gericht publiek) | 48 / 1651 / bucketId 30, controleer in het formulier |
 
-**Betaalde categorieën.** Banden en Velgen toont 'Dit is een betaalde categorie': Basis kost 7,25 euro (4 weken), Plus 16,24, Premium 38,14 (stand oktober 2026). Trek die kosten af van de netto-opbrengst en noem ze aan de gebruiker voor je prijs vastlegt. Kies Basis, tenzij de gebruiker anders beslist. Een gratis uitwijkcategorie bereikt minder kopers die op banden filteren: noem dat als afweging en laat de gebruiker kiezen.
+**Betaalde categorieën.** Banden en Velgen toont 'Dit is een betaalde categorie': Het formulier toont de actuele prijzen van Basis, Plus en Premium en de looptijd. Lees ze daar af en noteer ze. Trek die kosten af van de netto-opbrengst en noem ze aan de gebruiker voor je prijs vastlegt. Kies Basis, tenzij de gebruiker anders beslist. Een gratis uitwijkcategorie bereikt minder kopers die op banden filteren: noem dat als afweging en laat de gebruiker kiezen.
 
 **Werkwijze in het formulier.**
 
@@ -173,7 +166,7 @@ Bekende id's (hoofd / type / bucket):
 - **Steekmaat en naafgat (CB).** Alleen bevestigen als gemeten. Steekmaat van 4 gaten: afstand tussen de binnenkant van het ene gat en de buitenkant van het tegenoverliggende gat (zelfde zijde), of hart tot hart maal 1,414 bij tegenoverliggende gaten. 4x100 is veel voorkomend op kleine auto's, maar zeg 'waarschijnlijk, niet exact gemeten' zolang er niet met een schuifmaat is gemeten. Het naafgat meet je met een schuifmaat. Staan merk en model van de auto niet vast, schat dan nooit het naafgat uit het model: generaties verschillen (bijvoorbeeld 54,1 of 56,1 mm).
 - **ET en breedte.** Staan meestal op de achterkant van het wiel gestempeld (bijvoorbeeld 4,5J en ET). Laat de gebruiker de stempels fotograferen en lees ze af. Staat er niets, zet ET als onbekend in de advertentie.
 - **Passende auto's.** Alleen noemen als bevestigd.
-- **Indicatie winterbanden** (stand november 2026, check altijd opnieuw): gebruikte sets 14 inch 165/65 rond 100 tot 190 euro, 13 inch 155/70 rond 40 tot 100 euro, afhankelijk van profieldiepte, merk en leeftijd.
+- **Prijs bepalen.** Geen vaste prijsindicatie. Zoek elke keer via de zoek-API of de zoekpagina vergelijkbare sets (zelfde maat, seizoen, merkklasse, vergelijkbare DOT-leeftijd en profiel), let op gereserveerde advertenties en kijk hoe lang ze al staan. Prijs naar die uitkomst.
 
 **Uitlezen en snelheid.** Marktplaats geeft een 403 als je pagina's te snel achter elkaar opent: houd ongeveer 2,7 seconden tussen pagina's. De zoek-API werkt same-origin vanuit een marktplaats.nl-tab:
 
@@ -230,7 +223,7 @@ Alle recepten gaan uit van een ingelogde Claude in Chrome-sessie van de gebruike
 
 ### 6c. MCP-servers voor Marktplaats
 
-Onderzocht op 23 november 2026. Een officiële MCP van Marktplaats bestaat niet. Er zijn onofficiële servers die dezelfde onofficiële JSON-endpoints gebruiken als de site zelf, dus ze kunnen stuk gaan als Marktplaats iets wijzigt.
+Dit is een startpunt, geen actueel overzicht. Zoek eerst opnieuw naar actuele Marktplaats MCP-servers (GitHub, mcpservers.org, Apify) en lees van de kandidaten wat ze kunnen en hoe onderhouden ze zijn. Bij de laatste check bestond er geen officiële MCP van Marktplaats. Er waren alleen onofficiële servers die dezelfde onofficiële JSON-endpoints gebruiken als de site zelf, dus ze kunnen stuk gaan als Marktplaats iets wijzigt.
 
 | Server | Wat het kan | Opmerking |
 |---|---|---|
@@ -276,7 +269,7 @@ Herinner de gebruiker eraan de advertentie op verkocht te zetten of te verwijder
 
 **Na 4 weken.** De advertentie loopt af. Opnieuw plaatsen met een nieuwe eerste foto en scherpere prijs.
 
-**Winterbanden.** Plaats vanaf oktober, de vraag piekt tot december. Daarna zakt de vraag tot het najaar. Check altijd het actuele aanbod opnieuw, zie Banden en velgen voor een indicatie.
+**Winterbanden.** Plaats vanaf oktober, de vraag piekt tot december. Daarna zakt de vraag tot het najaar. Bepaal de prijs altijd uit het actuele aanbod, zie Prijs bepalen bij Banden en velgen.
 
 **Seizoen.** Benoem het seizoen als het ertoe doet (tuingereedschap, verticuteren in het voor- en najaar) en plan prijsstappen daarop.
 

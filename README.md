@@ -31,9 +31,9 @@ Je hebt Claude met skills nodig. Voor de browserrecepten ook de Claude in Chrome
    - Claude.ai en Claude Desktop: zip de map `marktplaats-verkoper` en upload hem via Instellingen, Capabilities, Skills
 3. Start een nieuw gesprek en zeg bijvoorbeeld: "Ik wil deze fiets verkopen op Marktplaats" met foto's erbij.
 
-## Let op: gedateerde gegevens
+## Altijd actuele cijfers
 
-Tarieven, categorie-id's en prijsindicaties in de skill zijn van oktober en november 2026. Marktplaats past ze regelmatig aan. De skill verwijst naar de officiele hulppagina's en naar het plaatsformulier voor de actuele cijfers. Check ze voor je erop vertrouwt.
+De skill bevat geen vaste tarieven of prijsindicaties. Verzendkosten, categoriekosten, Kopersbescherming, schrootprijzen en prijzen van vergelijkbare advertenties zoekt Claude bij elke advertentie opnieuw op, in het plaatsformulier, op de hulppagina's van Marktplaats of via de zoek-API. Categorie-id's staan er als startpunt in en zijn via het formulier te verifieren.
 
 ## MCP-servers
 
@@ -46,7 +46,7 @@ Dit project is onofficieel en niet verbonden aan Marktplaats, Adevinta of 2dehan
 ## Bijdragen
 
 Issues en pull requests zijn welkom, vooral voor:
-- bijgewerkte tarieven en categorie-id's
+- bijgewerkte categorie-id's en zoekroutes
 - aanvullende categorie-specifieke regels (zoals bij banden en velgen)
 - veranderingen in de Marktplaats-interface waardoor een browserrecept niet meer klopt
 

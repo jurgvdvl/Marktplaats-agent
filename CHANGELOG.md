@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0 (november 2026)
+
+- Tarieven, categoriekosten, Kopersbescherming, schrootprijzen, bandenprijzen en versiedata uit de skill gehaald. Ze worden nu bij elke advertentie opgezocht in het formulier, op de hulppagina's of via de zoek-API.
+- MCP-overzicht omgezet naar startpunt: eerst opnieuw zoeken naar actuele servers.
+
 ## 1.0.0 (november 2026)
 
 Eerste publieke versie.
