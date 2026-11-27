@@ -1,0 +1,11 @@
+{
+  "name": "marktplaats-agent",
+  "owner": { "name": "jurgvdvl" },
+  "plugins": [
+    {
+      "name": "marktplaats-agent",
+      "source": "./",
+      "description": "Persoonlijke agent voor Marktplaats: verkopen, prijsonderzoek, advertenties voorbereiden, inbox, onderhandelen en berichten schrijven."
+    }
+  ]
+}

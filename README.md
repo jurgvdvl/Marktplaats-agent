@@ -1,6 +1,6 @@
-# marktplaats-verkoper
+# marktplaats-agent
 
-Een skill voor Claude die als persoonlijke verkoper op Marktplaats werkt. Je geeft een item door, Claude levert prijs met onderbouwing, een plakklare advertentie, de juiste instellingen en houdt je inbox bij. Jij plaatst en keurt goed.
+Een plugin met een skill voor Claude die als persoonlijke agent op Marktplaats werkt. Je geeft een item door, Claude levert prijs met onderbouwing, een plakklare advertentie, de juiste instellingen en houdt je inbox bij. Jij plaatst en keurt goed.
 
 ## Wat het doet
 
@@ -25,13 +25,13 @@ Een skill voor Claude die als persoonlijke verkoper op Marktplaats werkt. Je gee
 
 ## Installeren
 
-Je hebt Claude met skills nodig. Voor de browserrecepten ook de Claude in Chrome-extensie.
+Je hebt Claude met plugins nodig. Voor de browserrecepten ook de Claude in Chrome-extensie.
 
-1. Download of clone deze repo.
-2. Kopieer de map `marktplaats-verkoper/` naar je skills-map:
-   - Claude Code: `~/.claude/skills/` (alle projecten) of `.claude/skills/` (alleen dit project)
-   - Claude.ai en Claude Desktop: zip de map `marktplaats-verkoper` en upload hem via Instellingen, Capabilities, Skills
+1. Open Plugins, kies Add marketplace en vul `jurgvdvl/Marktplaats-agent` in. Laat Sync automatically aan staan, dan komt elke update vanzelf binnen.
+2. Installeer de plugin `marktplaats-agent`.
 3. Start een nieuw gesprek en zeg bijvoorbeeld: "Ik wil deze fiets verkopen op Marktplaats" met foto's erbij.
+
+Alleen de skill gebruiken kan ook: kopieer de map `skills/marktplaats-agent/` naar `~/.claude/skills/` (Claude Code), of zip de map en upload hem via Instellingen, Capabilities, Skills. Dan moet je zelf bijwerken.
 
 ## Altijd actuele cijfers
 

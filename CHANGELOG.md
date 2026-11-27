@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 (november 2026)
+
+- Skill hernoemd van marktplaats-verkoper naar marktplaats-agent, met bredere beschrijving: verkopen, inbox, favorieten, onderhandelen en berichten.
+- Repo is nu ook een plugin-marketplace. Installeren en automatisch bijwerken kan via Add marketplace met jurgvdvl/Marktplaats-agent.
+
 ## 1.2.0 (november 2026)
 
 - Skill losgekoppeld van tijd, plaats en persoon: geen vaste cijfers, geen plaatsnamen, geen advertentie-id's, vervoerders en categorie-id's als voorbeeld in plaats van lijst. Nieuw hoofdstuk "Onafhankelijk van tijd, plaats en persoon".

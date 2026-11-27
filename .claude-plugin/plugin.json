@@ -1,0 +1,7 @@
+{
+  "name": "marktplaats-agent",
+  "description": "Persoonlijke agent voor Marktplaats: verkopen, prijsonderzoek, advertenties voorbereiden, inbox, onderhandelen en berichten schrijven.",
+  "version": "1.3.0",
+  "author": { "name": "jurgvdvl" },
+  "license": "MIT"
+}
