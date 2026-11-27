@@ -9,6 +9,8 @@ Een skill voor Claude die als persoonlijke verkoper op Marktplaats werkt. Je gee
 - Instellingen: prijstype, bieden vanaf, levering, pakketklasse, Direct Kopen, advertentievorm
 - Het plaatsformulier voorbereiden in Chrome, tot vlak voor de knop Plaats je advertentie
 - Inbox lezen, conceptantwoorden schrijven, biedingen beoordelen
+- Onderhandelen met technieken uit Never Split the Difference (Voss), Thinking, Fast and Slow (Kahneman), Oversubscribed (Priestley) en The Catalyst (Berger), alleen eerlijk toegepast
+- Berichten schrijven in een korte, vriendelijke stijl, met sjablonen voor antwoord, tegenbod, reserveren en afhakers
 - Favorieten bekijken en opruimen
 - Live advertenties bijwerken na jouw akkoord
 - Banden en velgen: DOT-code, steekmaat, naafgat en ET
@@ -33,7 +35,7 @@ Je hebt Claude met skills nodig. Voor de browserrecepten ook de Claude in Chrome
 
 ## Altijd actuele cijfers
 
-De skill bevat geen vaste tarieven of prijsindicaties. Verzendkosten, categoriekosten, Kopersbescherming, schrootprijzen en prijzen van vergelijkbare advertenties zoekt Claude bij elke advertentie opnieuw op, in het plaatsformulier, op de hulppagina's van Marktplaats of via de zoek-API. Categorie-id's staan er als startpunt in en zijn via het formulier te verifieren.
+De skill bevat geen vaste tarieven of prijsindicaties. Verzendkosten, categoriekosten, Kopersbescherming, schrootprijzen en prijzen van vergelijkbare advertenties zoekt Claude bij elke advertentie opnieuw op, in het plaatsformulier, op de hulppagina's van Marktplaats of via de zoek-API. Ook plaatsen, namen en categorie-id's staan niet vast in de skill: Claude leest ze uit het formulier. Daardoor werkt hij in elk land en elk jaar, zolang het platform vergelijkbaar werkt.
 
 ## MCP-servers
 
@@ -46,7 +48,7 @@ Dit project is onofficieel en niet verbonden aan Marktplaats, Adevinta of 2dehan
 ## Bijdragen
 
 Issues en pull requests zijn welkom, vooral voor:
-- bijgewerkte categorie-id's en zoekroutes
+- bijgewerkte zoekroutes en browserrecepten
 - aanvullende categorie-specifieke regels (zoals bij banden en velgen)
 - veranderingen in de Marktplaats-interface waardoor een browserrecept niet meer klopt
 
